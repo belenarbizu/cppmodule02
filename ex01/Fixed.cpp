@@ -6,6 +6,16 @@ Fixed::Fixed()
     this->_n = 0;
 }
 
+Fixed::Fixed(const int n)
+{
+
+}
+
+Fixed::Fixed(const float n)
+{
+    
+}
+
 Fixed::~Fixed()
 {
     std::cout << "Destructor called" << std::endl;
@@ -33,4 +43,14 @@ int Fixed::getRawBits(void) const
 void Fixed::setRawBits(int const raw)
 {
     this->_n = raw;
+}
+
+float Fixed::toFloat(void) const
+{
+
+}
+
+int Fixed::toInt(void) const
+{
+
 }
