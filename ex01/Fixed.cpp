@@ -54,3 +54,9 @@ int Fixed::toInt(void) const
 {
 
 }
+
+std::ostream& operator<<(std::ostream& os, const Fixed& f)
+{
+    os << f.getRawBits();
+    return os;
+}
