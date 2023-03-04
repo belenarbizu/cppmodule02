@@ -4,6 +4,8 @@
 #include <iostream>
 #include <cmath>
 
+//https://stackoverflow.com/questions/10067510/fixed-point-arithmetic-in-c-programming
+
 class Fixed
 {
 private:
