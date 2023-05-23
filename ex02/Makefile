@@ -5,13 +5,13 @@ OBJS = ${SRCS:.cpp=.o}
 NAME = fixed
 
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -f
 
 all: ${NAME}
 
 ${NAME}:	${OBJS}
-			${CC} ${CFLAGS} ${SRCS} -o ${NAME}
+			${CC} ${CPPFLAGS} ${SRCS} -o ${NAME}
 
 clean:
 		${RM} ${OBJS}

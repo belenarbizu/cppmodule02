@@ -4,8 +4,6 @@
 #include <iostream>
 #include <cmath>
 
-//https://www.unioviedo.es/compnum/laboratorios_py/Aritmetica_finita/Aritmetica_finita_y_error.html
-
 class Fixed
 {
 private:
